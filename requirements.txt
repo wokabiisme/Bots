@@ -1,0 +1,127 @@
+# Core Dependencies
+asyncio-contextmanager==1.0.0
+aiohttp==3.9.1
+asyncpg==0.29.0
+python-dotenv==1.0.0
+pyyaml==6.0.1
+loguru==0.7.2
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Data & Time
+pandas==2.1.4
+numpy==1.26.3
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# Technical Analysis
+ta-lib==0.4.28
+tvDatafeed==1.0.14
+pandas-ta==0.3.14b0
+
+# Machine Learning
+scikit-learn==1.3.2
+xgboost==2.0.3
+lightgbm==4.1.1
+catboost==1.2.2
+tensorflow==2.15.0
+torch==2.1.2
+torchvision==0.16.2
+keras==2.15.0
+optuna==3.0.5
+bayesian-optimization==1.4.3
+shap==0.44.1
+feature-engine==1.6.1
+
+# Trading & Brokers
+mt5linux==5.0.40
+metatrader5==5.0.45
+python-binance==1.0.17
+ccxt==4.0.96
+interactivebrokers==10.56.1
+oanda-v20==0.6.3
+alpaca-trade-api==3.2.0
+
+# Web Framework & Dashboard
+fastapi==0.109.0
+uvicorn==0.27.0
+starlette==0.35.0
+websockets==12.0
+
+# News & Sentiment
+newsapi==0.1.2
+textblob==0.17.1
+vaderSentiment==3.3.2
+tweepy==4.14.0
+nltk==3.8.1
+
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+alembic==1.13.1
+
+# Data Collection
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.4
+selenium==4.15.2
+
+# Optimization
+scipy==1.11.4
+statmodels==0.14.0
+scikit-optimize==0.9.1
+
+# Monitoring & Logging
+prometheus-client==0.19.0
+fluentd-python==0.1.0
+
+# Notifications
+python-telegram-bot==20.3
+discord.py==2.3.2
+slack-sdk==3.26.1
+twilio==8.10.0
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.2
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+faker==21.0.0
+
+# Code Quality
+black==23.12.1
+flake8==6.1.0
+mypy==1.7.1
+pylint==3.0.3
+isort==5.13.2
+
+# Security
+cryptography==41.0.7
+pyjwt==2.8.1
+python-jose==3.3.0
+passlib==1.7.4
+
+# Utilities
+click==8.1.7
+rich==13.7.0
+colorama==0.4.6
+tqdm==4.66.1
+joblib==1.3.2
+dill==0.3.8
+pickle-mixin==1.0.0
+
+# API Documentation
+pydantic-extra-types==2.1.0
+python-multipart==0.0.6
+
+# Environment
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# Caching
+redis==5.0.1
+hiredis==2.2.3
+
+# Excel
+openpyxl==3.1.2
+xlrd==2.0.1
